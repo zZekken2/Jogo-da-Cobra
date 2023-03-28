@@ -7,7 +7,7 @@ class Scoreboard(Turtle):
         self.color("black")
         self.penup()
         self.hideturtle()
-        self.goto(0, 400)
+        self.goto(0, 350)
         self.write(f"Score: {self.score}", True, align="center", font=("Karmatic Arcade", 24, "italic", "bold"))
 
     def gameover(self):
